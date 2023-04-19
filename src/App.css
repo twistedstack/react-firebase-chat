@@ -1,4 +1,4 @@
-@import-normalize;
+
 *,
 *:before,
 *:after {
@@ -36,15 +36,8 @@ input {
   color: #242443;
   height: 60px;
 }
+
 .sign-in {
-  border: none;
-  background-color: transparent;
-}
-.sign-in > img {
-  height: 30px;
-  width: auto;
-}
-.sign-out {
   padding: 5px 10px;
   border-radius: 5px;
   color: #88dded;
@@ -76,18 +69,18 @@ input {
   color: #1c2c4c;
   width: max-content;
   max-width: calc(100% - 50px);
-  box-shadow: -2px 2px 1px 1px #4c768d;
+  /* box-shadow: -2px 2px 1px 1px #4c768d; */
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
 }
-.chat-bubble.right {
+.chat-bubble-right {
   margin-left: auto;
   border-radius: 20px 20px 0 20px;
   background-color: #fff;
-  box-shadow: -2px 2px 1px 1px #88dded;
+  /* box-shadow: -2px 2px 1px 1px #88dded; */
 }
-.chat-bubble__left {
+.chat-bubble-avatar {
   width: 35px;
   height: 35px;
   border-radius: 50%;
