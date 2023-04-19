@@ -1,4 +1,5 @@
 # React Firebase Chat App
+| Chat Application built with React and Firebase.
 
 [DEMO](https://react-chap.web.app/)
 
